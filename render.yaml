@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: brain-tumor-yolov11-api
+    env: docker
+    plan: free
+    healthCheckPath: /health
